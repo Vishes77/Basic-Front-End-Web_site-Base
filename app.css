@@ -1,0 +1,16 @@
+body {
+    background-color: #000;
+    background-image: url(https://wallpaperaccess.com/full/181060.jpg);
+  }
+  
+  #landing-header {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    padding-top: 40vh;
+  }
+  
+  #landing-header h1 {
+    color: #fff;
+  }
+  
