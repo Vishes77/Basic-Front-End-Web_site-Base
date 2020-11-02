@@ -18,35 +18,52 @@
                     <li><a href="#">About</a></li>
                     <li><a href="/Login/Log_in.html">Login</a></li>
                     <li><a href="/Login/sign_up.html">Sign Up</a></li>
-                    <li><a href="/#">Logout</a></li>
+                    <li><a href="../Home.html">Logout</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-
-    <div class="container">
-        <div class="row">
-        <h1 style="text-align:center;">SIGN UP</h1>
-        <div style="width: 30% ; margin: 25px auto;">
-            <form action="/register" method="post">
-            <div class="form-group">
-                <!-- <input class="form-control" type="text" name="name" placeholder="name">	 -->
-                <input class="form-control" type="text" name="username" placeholder="username">
-            </div>
-            <div class="form-group">
-                <!-- <input class="form-control" type="test" name = "image" placeholder = "image Url"> -->
-                <input class="form-control" type="password" name="password" placeholder="password">
-            </div>	
-            <div class="form-group">
-                <button class="btn btn-lg btn-primary btn-block">
-                    SIGN UP
-                </button>
-            </div>
-            </form>
-            </div>
+<div class="container">
+    <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Password</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+          </div>
         </div>
+        <div class="form-group" style="padding-right: 15px; padding-left: 15px;">
+          <label for="inputAddress" >Full Name</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4" style="margin-right: 100px;">
+            <label for="inputState">State</label>
+            <select id="inputState" class="form-control" >
+              <option selected>Choose...</option>
+              <option>A</option>
+              <option>B</option>
+              <option>C</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="form-row">
+        <div class="form-group" style="padding-right: 15px; padding-left: 15px;">
+            <a type="submit"   id="book" class="btn btn-success">Sign up</a>
+          </div>
+        </div>
+      </form>
     </div>
-    
-
+    <script src="app.js"></script>
 </body>
 </html>
